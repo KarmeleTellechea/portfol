@@ -1,0 +1,356 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #441a44;
+  
+}
+section {
+    padding: 2em;
+}
+
+h2 {
+    color: #e28ade;
+}
+aside{
+    position:fixed;
+    background-color: #f68fff27;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 2px;
+    
+}
+aside a{  
+    margin: auto;
+    padding: 10px;
+    font-size: 27px;
+    color: hsl(303, 60%, 71%);
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.barralateral{
+    padding: 10px;
+}
+/*----------------Barra y logo --------------------*/
+header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #330930;;
+    padding: 10px;
+   
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%; 
+    padding-top:  10px;
+   
+   
+}
+header h1 {
+    margin: 0;
+    margin-left: 10px; 
+    color: #e28ade;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    margin-right: 100;
+    padding: 20px;
+   
+    
+}
+.menu li {
+    margin-left: 30px; 
+}
+ nav a {
+    display: flex;
+     justify-content: flex-end;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 19px;
+     color: #e28ade;
+     text-decoration: none;
+     margin: 20 ;
+     font-weight: bold;
+     transition: color 0.3s ease;
+ }
+ nav a:hover {
+     color: #41033d;
+ }
+ a {
+    color: #007bff;
+    text-decoration: none;
+}
+nav a.active {
+    color: #59255f;
+    border-bottom: 2px solid #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*---------------------inicio------------------*/
+#inicio {
+    display: flex;
+   
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px; 
+    height: 60vh; 
+    
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 100px;
+  
+  
+}
+.contenidop {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+}
+.texto {
+    max-width: 50%; 
+}
+#inicio h2 {
+    font-size: 60px; 
+    margin-bottom: 20px;
+}
+#inicio p {
+    font-size: 1.5em; 
+    color: #ba60c2;
+}
+
+.boton-descarga {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 5px solid #44042f; 
+    color: #c96db2; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.boton-descarga:hover {
+    border-color: #943b79; 
+}
+span{
+    font-size: 80px;
+    color: #b1e7b4;
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: rgb(4, 67, 11);
+    
+}
+
+  
+/*---------------acerca de mi --------------------*/
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+#acerca-de-mi{
+    display: flex;
+
+    text-align: left;
+    padding-top: 100px;
+    padding-left: auto; 
+    height: 70vh; 
+    
+    flex-direction: column;
+    justify-content: auto;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.contenedor {
+    text-align: left;
+}
+.contenedorizquierda {
+    text-align: left;
+}
+#contenidoPerfil{
+    color: #ba60c2;
+    text-align: left;
+    margin-right: 50%; 
+
+}
+#contenidoEstudios{
+    color: #ba60c2;
+    text-align: left;
+    margin-right: 50%; 
+
+}
+.presentaciones ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.presentaciones li {
+    margin-right: 20px; 
+}
+.contenido {
+    display: none;
+}
+.contenido.activo {
+    display: block;
+  
+}
+
+/*----------------HABILIDADES-------------*/
+/*ul {
+   
+    list-style-type: none;
+    padding: 0;
+    
+}*/
+.habilidadesh{
+
+    
+}
+#listadeestudios{
+    
+    list-style-type: none;
+    padding: 10;
+    margin-bottom: 10;
+}
+
+#habilidades h2 {
+    color: #333;
+    font-size: 10px;
+    
+}
+
+
+#habilidades ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-right: 50%; 
+}
+
+#habilidades li {
+    margin-bottom: 1em;
+    color: #ba60c2;
+    text-align: left;
+    margin-right: 50%; 
+}
+
+.habilidad {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 50%; ;
+}
+
+.nombre-habilidad {
+    flex: 1;
+    margin-right: 1em;
+    color: #ba60c2;
+
+}
+
+.barra {
+    flex: 2;
+    height: 20px;
+    background-color: #dbbaee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.nivel {
+    height: 100%;
+    border-radius: 4px;
+    background-color: #bc53caa9;
+    transition: width 0.5s ease;
+}
+/*--------------Proyectos-------------------*/
+
+#listaproyect {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 30;
+    flex-direction:   row;
+  
+    margin-top: 100px;
+    margin-left:50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+li {
+    list-style: none;
+    margin-bottom: 20px; /*separacion entre pro*/
+   
+}
+#proyectos {
+    height: 100vh;
+    background-color: #441a44;
+    border-radius: 5px;
+    padding:1em;
+    text-align: center;
+
+}
+#proyectos li {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*----------CONTACTO----------*/
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  label, input {
+    display: block;
+    margin-bottom: 10px;
+   color:  #e28ade;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #ba60c2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #eb74db;
+  }
+
+  #contacto {
+  color:  #e28ade;
+    border-radius: 8px;
+    padding: 1em;
+   
+}
+
+footer {
+    background-color: #691d74;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}

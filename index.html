@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Karmele Tellechea</title>
+   
+</head>
+
+
+<body>
+    <header>
+        <h1>KT </h1>
+    <!-- ponerle bien los "<>"
+    Una barra 
+    un logo a la izquierda nav en header-->
+    <nav class="navbar" id="nav">
+        <ul class="menu">
+            <li id="iniciovar">
+                <a href="#inicio"> Inicio </a> 
+            </li>
+            
+            <li id="acerca de acerca-de-mivar">
+                 <a href="#acerca-de-mi">  Acerca de Mí </a> 
+            </li>
+
+            <li id="proyectovar">
+                <a href="#proyectos">  Proyectos </a> 
+            </li>
+            <li id="contactovar">
+                <a href="#contacto"> Contacto  </a> 
+             </li>
+    </nav>
+    <!--  
+    una barra para poder indicar que bajen 
+   e-->    
+    </header>
+<main>
+        <aside>
+            <ul class="barralateral">
+                <li id="instagram">
+                    <a target="_blank" href="https://www.instagram.com/tellechea_fotografia/">📸</a>
+                </li>
+                <li id="linkedin">
+                    <a target="_blank" href="https://www.linkedin.com/in/karmele-tellechea-26684a156/">🔗</a>
+                </li>
+                <li id="github">
+                    <a target="_blank" href="https://github.com/KarmeleTellechea">🐱</a>
+                </li>
+                <li id="email">
+                    <a target="_blank" href="#contacto">✉️</a>
+                </li>
+            </ul>
+        </aside>
+        
+<!--  INICIO:texto  un position fixed para poner las redes.
+      añadir pseudoelemento en arte!-->
+
+    <section id="inicio">
+        <article class="contenidop">
+            <div class="texto">
+                <h2>El <span > ARTE </span> de crear con lógica.</h2>
+                <p>Karmele Tellechea / Desarrolladora Frontend y Artista</p>
+                <a href="https://drive.google.com/file/d/1dnPRE3q-H5yXclHbv57-MYrTg6wwP1_B/view?usp=drive_link" target="_blank" download class="boton-descarga">
+                   Portfolio
+                </a>
+                <a href="karmele cv .pdf" download class="boton-descarga">
+                    Curriculum
+                </a>
+            </div>
+            <img id="ilus" src="Ilustración_sin_título(2).PNG" alt="ilus">
+        </article>
+        
+    </section>  
+
+<!--  Acerca de mi 
+        Estudios 
+        laboral
+        premios-->
+
+        <section id="acerca-de-mi">
+            <div class="contenedor">
+                <div class="contenedorizquierda">
+                    <h2>HOLA!</h2>
+                    <nav class="presentaciones"> <!-- onclick para mostrar al darle -->
+                        <ul>
+                            <li>
+                                <a id="Perfil" class="menuperfil" href="#sobremi" onclick="mostrarContenido('perfil')"> Perfil</a>
+                            </li>
+                            <li>
+                                <a id="Estudios" class="menuestudio" href="#sobremi" onclick="mostrarContenido('estudios')"> Estudios</a>
+                            </li>
+                            <li>
+                                <a id="Skyns" class="menuestudio" href="#sobremi" onclick="mostrarContenido('skills')"> Skills</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div id="contenidoPerfil" class="contenido activo">
+                    <p>Me llamo Karmele y soy una fiel apasionada del Arte </p>
+                    <p>Llevo años en el mundo de la Tecnologia hasta que decidi dedicarme a ello.
+                     He realizado mis estudios como la carrera de Bellas artes, Fotografia, animacion 3D y actualmente
+                     estoy estudiando un Bootcamp de Frontend.
+                     Me siento una chica afortunada haciendo mi hobby, ya que me llena de vida y me inspira en mi dia dia.    
+                    </p> 
+                    <p> Mis trabajos los realizo con los sentimientos, cada momento transmite algo distinto y trato de captarlo en pequeños instantes.</p>
+                    <p> No voy a terminar esta presentación sin decir que tengo otra pasion:
+                        La programacion he estado estudiando diferentes idiomas y maneras  y actualmente sigo en ello.
+                    </p>
+                    <p> Dicho esto, doy a pie a que veais mi Portfolio</p>
+                    <a href="https://drive.google.com/file/d/1dnPRE3q-H5yXclHbv57-MYrTg6wwP1_B/view?usp=drive_link" download class="boton-descarga">
+                        Portfolio
+                     </a>
+                     
+                </div> 
+            
+                <div id="contenidoEstudios" class="contenido">
+                    <ul id="listadeestudios">
+                       <li> -2024-Bootcamp Desarrollador Frontend. PeñaskalF5</li> 
+                        <li>-2019/2023.Grado en Arte . EHU/UPV Leioa</li>
+                        
+                        <li>-2016/2018Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos en CES Escuela
+                            Superior de Imagen y Sonido, Madrid.</li>
+
+                            <li>-2014/2016. Grado medio de laboratorio de imagen en IES Dolores Ibarruri, Gallarta</li>
+                   
+                    </ul>
+                    <a href="cv Karmele tellechea-2.pdf" download class="boton-descarga">
+                        Curriculum
+                    </a>
+
+                </div>
+               
+                   
+                    
+                  
+                <div id="contenidoSkills" class="contenido ">
+                    <div class="row">
+                   
+                    <div class="column"> 
+                        <h2>Hard Skills</h2>
+                        <ul>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">HTML</div>
+                                <div class="barra"><div class="nivel" style="width: 80%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">CSS</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">JavaScript</div>
+                                <div class="barra"><div class="nivel" style="width: 70%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">C#</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                                </li>
+                                <li class="habilidad">
+                                    <div class="nombre-habilidad">Scrum</div>
+                                    <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                                </li>
+                                <li class="habilidad">
+                                    <div class="nombre-habilidad">Git</div>
+                                    <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                                </li>
+                                <li class="habilidad">
+                                    <div class="nombre-habilidad">TBD</div>
+                                    <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                                </li>
+                                <li class="habilidad">
+                                    <div class="nombre-habilidad">Canva</div>
+                                    <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                                </li>
+                            <!-- Poner los de code y los de diseño-->
+                        </ul>
+                    </div>
+                    <div class="column" >
+
+                        <h2>Soft Skillss</h2>
+               
+                        <ul>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Trabajo en equipo</div>
+                                <div class="barra"><div class="nivel" style="width: 80%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Resolitiva</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Aprendizaje activo </div>
+                                <div class="barra"><div class="nivel" style="width: 70%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Creativa</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Puntual</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Comunicativa</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                    <div class="column" >
+                    <h2>Art Skills</h2>
+               
+                        <ul>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Adobe Photoshop</div>
+                                <div class="barra"><div class="nivel" style="width: 80%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Adobe after effects</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Adobe lightroom</div>
+                                <div class="barra"><div class="nivel" style="width: 70%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Procreate</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Adobe indesign</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Unity3D</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Krita</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <li class="habilidad">
+                                <div class="nombre-habilidad">Adobe Premiere</div>
+                                <div class="barra"><div class="nivel" style="width: 75%;"></div></div>
+                            </li>
+                            <!-- Poner los de code y los de diseño-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Parte de javaScipt para cambiar -->
+        <script> 
+            function mostrarContenido(seccion) { //Esto define una función de JavaScript llamada mostrarContenido
+                 //que toma un parámetro llamado seccion. 
+                 //Esta función será llamada cuando se haga clic en algún elemento que active la visualización 
+                //de un contenido específico.
+               
+                // asi se quita los comentarios :
+                //Este es un método que selecciona todos los elementos del documento que tienen la clase CSS llamada contenido 
+                //y luego itera sobre ellos con el método forEach.
+                // La función de callback (la función anónima dentro de forEach) se ejecuta para cada uno de estos elementos.
+
+                document.querySelectorAll('.contenido').forEach(function (contenido) {
+                    contenido.classList.remove('activo');
+
+                    // Para cada elemento con la clase contenido,
+                    // esta línea de código elimina la clase activo de su lista de clases.
+                    // Esto esta diseñado para ocultar todos los contenidos activos antes de mostrar uno nuevo.
+                }); //cierre
+        
+                // con esto enseña el contenido que corresponde a cada nombre.
+                document.getElementById('contenido' + seccion.charAt(0).toUpperCase() + seccion.slice(1)).classList.add('activo');
+                //Esta línea de código busca un objeto específico dentro del codigo usando su nombre único.
+                // El nombre de este objeto está formado por la palabra "contenido" seguida de una palabra que describe lo que contiene. 
+                //Por ejemplo, si seccion es "inicio", la línea buscará un objeto con el nombre "contenidoInicio".
+            }
+        </script>   
+
+<!-- PROYECTOS grid!!!!!!!!!!!!!
+    git
+    pagina web el cuaderno de kar
+    propio portfolio 
+    trabajos varios--->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul id="listaproyect">
+            <li>
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </li>
+            <li>
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </li>
+            <li>
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 3.</p>
+            </li>
+            <li>
+                <h3>Proyecto 4</h3>
+                <p>Descripción del proyecto 4.</p>
+            </li>
+            <!-- PONER MAS -->
+        </ul>
+    </section>
+
+ <!-- CONTACTOun formulario aparte -->
+    <section id="contacto">
+        <h2>Formulario de Contacto</h2>
+
+        <form action="/enviar_formulario.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form>
+        
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mi correo electrónico: <a href="ktelletxea.kt@gmail.com">ktelletxea.kt@gmail.com</a></p>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2024 Karmele tellechea</p>
+    </footer>
+
+</body>
+</html>
