@@ -44,6 +44,10 @@ header {
     padding: 10px;
    
 }
+#hamburger, #hamburger-input {
+    display: none;
+  }
+  
 .navbar {
     display: flex;
     justify-content: flex-end;

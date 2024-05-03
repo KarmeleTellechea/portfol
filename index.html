@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilo/styles.css">
+    <link rel="stylesheet" href="estilo/estilomovil.css" media="screen and (max-width: 900px)">
     <title>Karmele Tellechea</title>
    
 </head>
@@ -16,7 +17,11 @@
     Una barra 
     un logo a la izquierda nav en header-->
     <nav class="navbar" id="nav">
-        <ul class="menu">
+
+        <label for="hamburger-input" id="hamburger">☰</label>
+        <input type="checkbox" id="hamburger-input"/>
+        
+        <ul class="menu" id="nav-items">
             <li id="iniciovar">
                 <a href="#inicio"> Inicio </a> 
             </li>
@@ -30,12 +35,15 @@
             </li>
             <li id="contactovar">
                 <a href="#contacto"> Contacto  </a> 
-             </li>
+            </li>
+        </ul>
+
     </nav>
     <!--  
     una barra para poder indicar que bajen 
    e-->    
     </header>
+    
 <main>
         <aside>
             <ul class="barralateral">
