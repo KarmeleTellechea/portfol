@@ -47,6 +47,7 @@ aside a{
   max-width: 500px;
   margin: 0 auto;
   height: 90vh;
+  padding-top: 5px;
 }
 img{
   display: none;
