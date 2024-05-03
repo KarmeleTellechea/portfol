@@ -46,7 +46,7 @@ aside a{
 #inicio{
   max-width: 500px;
   margin: 0 auto;
-  height: 100vh;
+  height: 150vh;
 }
 img{
   display: none;
@@ -59,7 +59,7 @@ img{
 #acerca-de-mi{
   max-width: 500px;
     margin: 0 auto;
-  height: 190vh; 
+  height: 220vh; 
   text-align: center;
 }
     
