@@ -1,9 +1,12 @@
 /*----aside---*/
 aside{
-    position:fixed;
+  display: none;
+}
+/*aside{
+    position:block;
     background-color: #f68fff27;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
     padding: 2px;
   
     
@@ -14,7 +17,7 @@ aside a{
     font-size: 17px;
     color: hsl(303, 60%, 71%);
     font-family: 'Courier New', Courier, monospace;
-}
+}*/
 /*----nav----*/
 #nav-items {
    display: none;
@@ -39,14 +42,24 @@ aside a{
   header{
     background-color:#441a44 ;
   }
-  /*-----------inicio----*/
-  
-.inicio{
-margin-top: 0px;
+/*-----------inicio----*/  
+#inicio{
+  max-width: 500px;
+  margin: 0 auto;
+  height: 90vh;
 }
-  
 img{
   display: none;
+
 }
 
+/*---acerca de mi */
+
+/*---habilidades--*/
+#acerca-de-mi{
+  max-width: 500px;
+    margin: 0 auto;
+  height: 170vh; 
+  text-align: center;
+}
     
