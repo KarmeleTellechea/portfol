@@ -2,26 +2,11 @@
 aside{
   display: none;
 }
-/*aside{
-    position:block;
-    background-color: #f68fff27;
-    border-radius: 50%;
-    margin: 5px;
-    padding: 2px;
-  
-    
-}
-aside a{  
-    margin: auto;
-    padding: 10px;
-    font-size: 17px;
-    color: hsl(303, 60%, 71%);
-    font-family: 'Courier New', Courier, monospace;
-}*/
+
 /*----nav----*/
 #nav-items {
    display: none;
-   margin-top: 150px;
+   margin-top: 50%;
 }
 #nav-items a {
     display: flex;
@@ -30,7 +15,7 @@ aside a{
   }
   #hamburger {
     display: inline-block;
-    padding: 20px;
+    padding: 2%;
     font-size: 200%;
     font-weight: bold;
     cursor:pointer;
@@ -42,17 +27,39 @@ aside a{
   header{
     background-color:#441a44 ;
   }
+
 /*-----------inicio----*/  
 #inicio{
-  max-width: 500px;
-  margin: 0 auto;
-  height: 90vh;
-  padding-top: 0px;
+  margin:-5%;
+  height: 100vh;
+  padding-top: 1%;
+  padding-left: 12%;
 }
-img{
+
+.texto{
+  padding-top: 60%;
+ padding-right: 25%;
+
+}
+#ilus{
   display: none;
 
 }
+.contenidop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  padding-right: 200%;
+}
+#movil { 
+  display: block;
+ 
+img{
+  width: 400%;
+  
+} }  
+ 
+
 .des{
 font-size: 10px;
 }

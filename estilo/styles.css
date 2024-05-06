@@ -114,6 +114,9 @@ a:hover {
   
   
 }
+.movil{
+    display:none;
+}
 .contenidop {
     display: flex;
     justify-content: space-between;
@@ -121,6 +124,7 @@ a:hover {
 }
 .texto {
     max-width: 50%; 
+    
 }
 #inicio h2 {
     font-size: 60px; 
