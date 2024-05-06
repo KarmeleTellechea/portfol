@@ -101,20 +101,17 @@ a:hover {
 /*---------------------inicio------------------*/
 #inicio {
     display: flex;
-   
     text-align: center;
     padding-top: 100px;
     padding-left: 100px; 
-    height: 60vh; 
-    
+    height: 60vh;  
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
     margin-left: 100px;
-  
-  
 }
-.movil{
+
+#movil{
     display:none;
 }
 .contenidop {
@@ -124,7 +121,7 @@ a:hover {
 }
 .texto {
     max-width: 50%; 
-    
+
 }
 #inicio h2 {
     font-size: 60px; 
