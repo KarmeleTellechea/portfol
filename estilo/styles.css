@@ -302,6 +302,8 @@ span{
 li {
     list-style: none;
     margin-bottom: 20px; /*separacion entre pro*/
+   color: #ba60c2;
+   
    
 }
 #proyectos {
@@ -313,10 +315,16 @@ li {
 
 }
 #proyectos li {
-    background-color: #fff;
-    border-radius: 4px;
+    background-color:   #33093067;;
+    border-radius: 30%;
     padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.imagenpro{
+width: 50%;
+border-radius: 20%;
+
 }
 
 /*----------CONTACTO----------*/
