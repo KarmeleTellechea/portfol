@@ -59,17 +59,15 @@ img{
   
 } }  
  
-
 .des{
-font-size: 10px;
+font-size: 50%;
 }
 
 /*---acerca de mi */
 
 /*---habilidades--*/
 #acerca-de-mi{
-  max-width: 500px;
-    margin: 0 auto;
+  margin: 0 auto;
   height: 170vh; 
   text-align: center;
 }
