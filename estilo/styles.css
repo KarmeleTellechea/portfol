@@ -7,7 +7,7 @@ body {
   
 }
 section {
-    padding: 2em;
+    padding: 1rem;
 }
 
 h2 {
@@ -17,21 +17,19 @@ aside{
     position:fixed;
     background-color: #f68fff27;
     border-radius: 50%;
-    margin: 10px;
-    padding: 2px;
-    
+    margin: 0.2%;
+    padding: 1%;
 }
 aside a{  
     margin: auto;
-    padding: 10px;
-    font-size: 27px;
+    padding: 1%;
+    font-size: 2rem;
     color: hsl(303, 60%, 71%);
-
     font-family: 'Courier New', Courier, monospace;
 
 }
 .barralateral{
-    padding: 10px;
+    padding: 10%;
 }
 /*----------------Barra y logo --------------------*/
 header {
@@ -39,9 +37,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 1rem;
     background-color: #330930;;
-    padding: 10px;
+    padding: 1.5%;
    
 }
 #hamburger, #hamburger-input {
@@ -52,64 +50,68 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 70%; 
-    padding-top:  10px;
-   
-   
+    padding-top: 1%;
 }
+
 header h1 {
     margin: 0;
-    margin-left: 10px; 
+    margin-left: 1%; 
     color: #e28ade;
 }
 .menu {
     display: flex;
     list-style: none;
-    margin-right: 100;
-    padding: 20px;
+    margin-right: 1rem;
+    padding: 1rem;
    
     
 }
 .menu li {
-    margin-left: 30px; 
+    margin-left: 2.5rem; 
 }
  nav a {
     display: flex;
      justify-content: flex-end;
      font-family: 'Courier New', Courier, monospace;
-     font-size: 19px;
+     font-size: 1.3rem;
      color: #e28ade;
      text-decoration: none;
-     margin: 20 ;
+     margin: 0.5rem ;
      font-weight: bold;
      transition: color 0.3s ease;
  }
+
  nav a:hover {
      color: #41033d;
  }
  a {
-    color: #007bff;
     text-decoration: none;
-}
+    }
 nav a.active {
-    color: #59255f;
-    border-bottom: 2px solid #007bff;
-}
+    color: #59255f;   
+    }
 a:hover {
     text-decoration: underline;
-}
+    }
+
 /*---------------------inicio------------------*/
 #inicio {
     display: flex;
     text-align: center;
-    padding-top: 100px;
-    padding-left: 100px; 
-    height: 60vh;  
+    padding-top: 10rem;
+    padding-left: 20rem; 
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
+
+#ordenador { 
+    display: block;
+  img{
+    width: 70%;
+    
+  } }
 
 #movil{
     display:none;
@@ -117,25 +119,25 @@ a:hover {
 .contenidop {
     display: flex;
     justify-content: space-between;
-    width: 90%; 
+    width: 100%; 
 }
 .texto {
-    max-width: 50%; 
+    max-width: 70%; 
 
 }
 #inicio h2 {
-    font-size: 60px; 
-    margin-bottom: 20px;
+    font-size: 5rem; 
+    margin-bottom: 2rem;
 }
 #inicio p {
-    font-size: 1.5em; 
+    font-size: 1.5rem; 
     color: #ba60c2;
 }
 
 .boton-descarga {
     display: inline-block;
-    padding: 10px 20px;
-    border: 5px solid #44042f; 
+    padding: 1rem 2rem;
+    border: 0.5rem solid #44042f; 
     color: #c96db2; 
     text-decoration: none;
     font-weight: bold;
@@ -146,9 +148,9 @@ a:hover {
     border-color: #943b79; 
 }
 span{
-    font-size: 80px;
+    font-size: 6rem;
     color: #b1e7b4;
-    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-width: 0.3rem; 
     -webkit-text-stroke-color: rgb(4, 67, 11);
     
 }
@@ -354,8 +356,8 @@ border-radius: 20%;
 
   #contacto {
   color:  #e28ade;
-    border-radius: 8px;
-    padding: 1em;
+    border-radius: 8rem;
+    padding: 1rem;
    
 }
 
