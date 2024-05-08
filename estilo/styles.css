@@ -38,19 +38,16 @@ header {
     height: 1rem;
     background-color: #330930;;
     padding: 1.5%;
-   
 }
 #hamburger, #hamburger-input {
     display: none;
-  }
-  
+  }  
 .navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-top: 1%;
 }
-
 header h1 {
     margin: 0;
     margin-left: 1%; 
@@ -60,9 +57,7 @@ header h1 {
     display: flex;
     list-style: none;
     margin-right: 1rem;
-    padding: 1rem;
-   
-    
+    padding: 1rem;  
 }
 .menu li {
     margin-left: 2.5rem; 
@@ -151,9 +146,7 @@ span{
     -webkit-text-stroke-width: 0.3rem; 
     -webkit-text-stroke-color: rgb(4, 67, 11);
     
-}
-
-  
+} 
 /*---------------acerca de mi --------------------*/
 .row {
     display: -webkit-flex;

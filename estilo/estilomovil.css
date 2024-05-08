@@ -16,30 +16,35 @@ aside{
   #hamburger {
     display: inline-block;
     padding: 2%;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bold;
     cursor:pointer;
     color: rgb(233, 174, 241);
+    
+
   }
   nav input:checked ~ #nav-items {
     display:block;
   }
   header{
     background-color:#441a44 ;
+    padding-top: 1rem;
   }
 
 /*-----------inicio----*/  
 #inicio{
-  margin:-5%;
-  height: 100vh;
-  padding-top: 1%;
-  padding-left: 12%;
+  margin:1rem;
+  padding-top: 10%;
+  padding-left: 1rem;
 }
 
 .texto{
-  padding-top: 60%;
- padding-right: 25%;
-
+  padding-top: 1%;
+}
+.contenidop{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #ilus{
   display: none;
@@ -52,7 +57,9 @@ aside{
   padding-right: 200%;
 }
 #movil { 
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
  
 img{
