@@ -153,9 +153,7 @@ span{
     display: flex;
     flex-wrap:wrap;
   }
-  
-  /* Create three equal columns that sits next to each other */
-  .column {
+.column {
     -webkit-flex: 1;
     -ms-flex: 5;
     flex: 1;
@@ -172,7 +170,6 @@ span{
     margin-bottom: 50rem;
 
 }
-
 .contenedor {
     text-align: left;
   
@@ -184,7 +181,6 @@ span{
     color: #ba60c2;
     text-align: left;
     margin-right: 50%; 
-
 }
 #contenidoEstudios{
     color: #ba60c2;
@@ -342,17 +338,15 @@ border-radius: 20%;
   button:hover {
     background-color: #eb74db;
   }
-
   #contacto {
   color:  #e28ade;
     border-radius: 8rem;
     padding: 1rem;
    
-}
-
-footer {
-    background-color: #691d74;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
+    }
+  footer {
+        background-color: #691d74;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
