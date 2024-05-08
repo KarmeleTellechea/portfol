@@ -9,7 +9,6 @@ body {
 section {
     padding: 1rem;
 }
-
 h2 {
     color: #e28ade;
 }
@@ -19,14 +18,13 @@ aside{
     border-radius: 50%;
     margin: 0.2%;
     padding: 1%;
+    margin-top:10rem;
 }
 aside a{  
     margin: auto;
     padding: 1%;
     font-size: 2rem;
     color: hsl(303, 60%, 71%);
-    font-family: 'Courier New', Courier, monospace;
-
 }
 .barralateral{
     padding: 10%;
@@ -170,25 +168,22 @@ span{
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: 10px;
-    height: 400px; /* Should be removed. Only for demonstration */
   }
 #acerca-de-mi{
     display: flex;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 10%;
     padding-left: auto; 
-    height: 70vh; 
-    
     flex-direction: column;
     justify-content: auto;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margin-top: 1%;
+    margin-left: 8rem;
+    margin-bottom: 50rem;
 }
 
 .contenedor {
     text-align: left;
+  
 }
 .contenedorizquierda {
     text-align: left;
@@ -210,9 +205,11 @@ span{
     padding: 0;
     margin: 0;
     display: flex;
+  
 }
 .presentaciones li {
-    margin-right: 20px; 
+    margin-right: 2rem; 
+
 }
 .contenido {
     display: none;
@@ -233,56 +230,54 @@ span{
 #listadeestudios{
     
     list-style-type: none;
-    padding: 10;
-    margin-bottom: 10;
-}
-
-#habilidades h2 {
-    color: #333;
-    font-size: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
     
 }
 
-
 #habilidades ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0rem;
     text-align: left;
     margin-right: 50%; 
+    
 }
 
 #habilidades li {
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
     color: #ba60c2;
     text-align: left;
     margin-right: 50%; 
+  
 }
 
 .habilidad {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-right: 50%; ;
+    margin-right: 50%; 
+    margin-top: 1rem;
 }
 
 .nombre-habilidad {
     flex: 1;
-    margin-right: 1em;
+    margin-right: 1rem;
     color: #ba60c2;
 
 }
 
 .barra {
     flex: 2;
-    height: 20px;
+    height: 1.5rem;
     background-color: #dbbaee;
-    border-radius: 4px;
+    border-radius: 1rem;
     overflow: hidden;
+    
 }
 
 .nivel {
     height: 100%;
-    border-radius: 4px;
+    border-radius: 4rem;
     background-color: #bc53caa9;
     transition: width 0.5s ease;
 }
@@ -293,33 +288,35 @@ span{
     justify-content: space-between;
     list-style-type: none;
     flex-wrap:wrap;
-    padding: 30;
+    padding: 1rem;
     flex-direction:   row;
 
-    margin-top: 100px;
-    margin-left:50px;
-    margin-bottom: 100px;
-    margin-right: 50px;
+    margin-top: 1rem;
+    margin-left:5rem;
+    margin-bottom: 10rem;
+    margin-right: 5rem;
 }
 li {
     list-style: none;
-    margin-bottom: 20px; /*separacion entre pro*/
+    margin-bottom: 1rem; 
    color: #ba60c2;
-   
+
    
 }
 #proyectos {
-    height: 100vh;
-    background-color: #441a44;
-    border-radius: 5px;
-    padding:1em;
+
+    background-color: #441a4400;
+    border-radius: 5%;
+    padding:1rem;
     text-align: center;
+    margin: 1rem;
 
 }
 #proyectos li {
-    background-color:   #33093067;;
+    background-color:   #ffdcfc25;
     border-radius: 30%;
-    padding: 1em;
+    padding: 1rem;
+    margin: 1rem;
 }
 .imagenpro{
 width: 50%;
@@ -329,25 +326,25 @@ border-radius: 20%;
 
 /*----------CONTACTO----------*/
   form {
-    max-width: 500px;
+    max-width: 25%;
     margin: 0 auto;
   }
   label, input {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
    color:  #e28ade;
   }
   input, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 1rem;
     box-sizing: border-box;
   }
   button {
     background-color: #ba60c2;
     color: white;
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 5%;
     cursor: pointer;
   }
   button:hover {
@@ -365,5 +362,5 @@ footer {
     background-color: #691d74;
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
 }
