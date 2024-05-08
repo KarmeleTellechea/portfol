@@ -34,26 +34,24 @@ aside{
 /*-----------inicio----*/  
 #inicio{
   margin:1rem;
-  padding-top: 10%;
+  padding-top: 11%;
   padding-left: 1rem;
 }
 .texto{
- max-width: 50rem;
+ max-width: 70rem;
 }
 .contenidop{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 #ilus{
   display: none;
 
 }
-.contenidop {
-  display: flex;
-  justify-content: space-between;
-  width: 100%; 
-  padding-right: 200%;
+h2{
+  margin-top: 0.5rem;
 }
 #movil { 
   display: flex;
