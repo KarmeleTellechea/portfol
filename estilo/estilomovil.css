@@ -37,9 +37,8 @@ aside{
   padding-top: 10%;
   padding-left: 1rem;
 }
-
 .texto{
-  padding-top: 1%;
+ max-width: 50rem;
 }
 .contenidop{
   display: flex;
@@ -71,12 +70,15 @@ img{
 font-size: 50%;
 }
 
-/*---acerca de mi */
-
 /*---habilidades--*/
 #acerca-de-mi{
   margin: 0 auto;
-  height: 170vh; 
+; 
   text-align: center;
+}
+.row{
+  display: flex;
+  flex-direction: column;
+ 
 }
     

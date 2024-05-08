@@ -152,14 +152,12 @@ span{
     display: -webkit-flex;
     display: flex;
     flex-wrap:wrap;
-  
   }
   
   /* Create three equal columns that sits next to each other */
   .column {
-   
     -webkit-flex: 1;
-    -ms-flex: 1;
+    -ms-flex: 5;
     flex: 1;
   }
 #acerca-de-mi{
@@ -172,6 +170,7 @@ span{
     margin-top: 1%;
     margin-left: 8rem;
     margin-bottom: 50rem;
+
 }
 
 .contenedor {
