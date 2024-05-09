@@ -34,8 +34,8 @@ aside{
 /*-----------inicio----*/  
 #inicio{
   margin:1rem;
-  padding-top: 15%;
-  padding-left: 1rem;
+  padding-top: 7%;
+  padding-left: 0.5rem;
 }
 .texto{
  max-width: 70rem;
@@ -61,7 +61,7 @@ h2{
  
 img{
   width: 15rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
   
 } }  
  
