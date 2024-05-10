@@ -34,7 +34,7 @@ aside{
 /*-----------inicio----*/  
 #inicio{
   margin:1rem;
-  padding-top: 7%;
+  padding-top: 4%;
   padding-left: 0.5rem;
 }
 .texto{
@@ -53,17 +53,31 @@ aside{
 h2{
   margin-top: 0.5rem;
 }
-#movil { 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 
- 
-img{
-  width: 15rem;
-  padding-left: 3rem;
+@media only screen and (min-width:600px){
   
-} }  
+  #movil { 
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  img{
+      width: 20rem; 
+      padding-left: 18rem;
+    } }
+  }
+  @media only screen and (max-width:600px){
+    #movil { 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      
+    img{
+        width: 15rem;
+        padding-left: 3rem;
+        
+      } }
+    }
+   
  
 .des{
 font-size: 50%;
