@@ -17,19 +17,26 @@ aside{
     margin: 0.2%;
     padding: 1%;
     margin-top:10rem;
-
-            .barralateral{
-                padding: 10%;
-            }
+  
+   
 }
+
+           
 aside a{  
     font-size: 2rem;  
+   
+}
+.barralateral{
+    
+    padding: 10%;
 }
 li {
+    
     list-style: none;
     margin-bottom: 1rem; 
    color: #ba60c2;   
 }
+
 /*----------------Barra y logo --------------------*/
 header {
     display:flex;
@@ -45,6 +52,7 @@ header {
         }
 
         .menu {
+            list-style: none;
             display: flex;
             margin-right: 1rem;
             padding: 1rem; 
@@ -55,13 +63,15 @@ header {
             nav a:hover {
                 color: #ff9ece;
             }
-            a {
-               text-decoration: none;
-               }
-           a:hover {
-               text-decoration: underline;
-               }    
+            
 }
+a {
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: underline;
+    }  
+    
 nav a {
     display: flex;
      justify-content: flex-end;
