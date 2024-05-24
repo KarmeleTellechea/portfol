@@ -87,4 +87,7 @@ font-size: 50%;
   flex-direction: column;
  
 }
-    
+form {
+  max-width: 80%;
+  margin: 0 auto;
+}
