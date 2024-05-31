@@ -4,10 +4,10 @@ reviews = [
     {
         id: 1,
         author: "Portfolio fotografia",
-        job: "Mestizo  22kgs",
+        job: "Tellechea_fotografia",
         img: `${carpetaImagenes}img1.webp`,
         text:
-            "Macho de 6 años,  Sociable con perros/as y cariñoso con personas. Juguetón."
+            "Portfolio fotografico, donde se pueden ver mi trabajo como fotografa "
     },
     {
         id: 2,
