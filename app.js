@@ -17,7 +17,7 @@ reviews = [
         text:
             "Macho de 6 años,  Sociable con perros/as y cariñoso con personas. Juguetón."
     },
-    
+
 ]
 const url = document.getElementById("url")
 const img = document.getElementById("person-img");
