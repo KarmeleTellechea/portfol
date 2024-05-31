@@ -1,12 +1,11 @@
 const carpetaImagenes = 'Arch/'
 
-
 reviews = [
     {
         id: 1,
         author: "Portfolio fotografia",
         job: "Mestizo  22kgs",
-        img: `${carpetaImagenes}img.webp`,
+        img: `${carpetaImagenes}img1.webp`,
         text:
             "Macho de 6 años,  Sociable con perros/as y cariñoso con personas. Juguetón."
     },
