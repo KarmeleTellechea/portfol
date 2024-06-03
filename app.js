@@ -12,10 +12,10 @@ reviews = [
     {
         id: 2,
         author: "Portfolio fotografia",
-        job: "Mestizo  22kgs",
+        job: "-",
         img: "https://www.imgacademy.com/sites/default/files/legacy-hotel-20.jpg",
         text:
-            "Macho de 6 años,  Sociable con perros/as y cariñoso con personas. Juguetón."
+            "-----------"
     },
 
 ]
